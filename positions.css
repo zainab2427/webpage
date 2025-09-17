@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    background-color:rgba(250, 215, 245, 0.756)
+}
+.top-bar{
+    border:1c px solid black;
+    display:inline-block;
+    background-color:#b07ba0;
+    width:100vw;
+    position:fixed;
+}
+#instagram{
+    width:40px;
+    height:auto;
+    padding:5px 5px;
+}
+#twitter{
+    width:40px;
+    height:auto;
+     padding:5px 5px;
+}
+#facebook{
+    width:40px;
+    height:auto;
+     padding:5px 5px;
+}
+#tiktok{
+    width:40px;
+    height:auto;
+     padding:5px 5px;
+}
+.search-bar input {
+      padding: 5px 10px;
+      border-radius: 20px;
+      border: 1px solid #ccc
+    }
+ .search-bar {
+      position:fixed;
+      top: 20px;
+      right: 0px;
+ }
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      position: relative;
+      background :linear-gradient(to top,#1D2B64,#F8CDDA) ;
+    }
+
+    /* Logo */
+    .logo {
+      position: sticky;
+      left: 50%;
+      margin:5px 10px 10px 20px;
+      transform: translateX(-50%);
+      font-family: "Brush Script MT", cursive;
+      font-size: 50px;
+      color: #741042;
+    }
+
+    /* Navigation */
+    .nav-left, .nav-right {
+      display: flex;
+      gap: 10px;
+      
+    }
+    .nav-left a, .nav-right a {
+      text-decoration: none;
+      color: #520758;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+  
+   
+    
